@@ -18,10 +18,14 @@ html[dir='ltr'] {
         border-bottom-right-radius: .25rem;
     }
 }
+h1,h1,table th, table td {
+    color:white;
+}
 
 body {
     padding-top: 4.5rem;
     margin-bottom: 80px;
+    background-color:black;
 }
 
 .footer {

@@ -98,14 +98,14 @@ namespace {
             die();
         }
         // config load OK, make sure database version is up to date
-        $installer = new \psm\Util\Install\Installer($db);
+        /* $installer = new \psm\Util\Install\Installer($db);
         if ($installer->isUpgradeRequired()) {
             trigger_error(
                 "Your database is for an older version and requires an upgrade, 
                     <a href=\"install.php\">please click here</a> to update your database to the latest version.",
                 E_USER_ERROR
             );
-        }
+        } */
     }
 
     $lang = psm_get_conf('language', 'en_US');

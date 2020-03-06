@@ -10,3 +10,4 @@
 *.bak
 __MACOSX/
 .DS_Store
+.vscode/sftp.json
